@@ -7,10 +7,10 @@ class Header extends Component {
    
     render() {
         return (
-          <>
+          <header>
             <Logo></Logo>
             <Nav></Nav>
-          </>
+          </header>
         )
       }
     }
