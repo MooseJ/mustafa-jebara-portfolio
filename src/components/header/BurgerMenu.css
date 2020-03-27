@@ -1,0 +1,29 @@
+span {
+  border-top: .2rem solid #2E2424;
+  display: block;
+  width: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.collapsible-menu {
+  position: absolute;
+  display: block;
+  right: 0px;
+  top: 8vh;
+}
+
+.burger-menu {
+  cursor: pointer;
+  margin-top: 3vh;
+  margin-right: 3vw;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+
+  .collapsible-menu {
+    display: none;
+  }
+}

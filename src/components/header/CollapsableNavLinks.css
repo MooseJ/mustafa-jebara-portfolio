@@ -1,0 +1,24 @@
+.collapsible-links {
+  list-style-image: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #2E2424;
+  width: 100vw;
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: .2rem solid #80C79E;
+  text-align: center;
+}
+
+.collapsible-links > li {
+  text-align: center;
+  flex: 1;
+  display: list-item;
+  font-family: 'Lato', sanfs-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-bottom: 3rem;
+  width: 100vw;
+} 

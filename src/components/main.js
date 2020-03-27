@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './main.css';
+import './Main.css';
 
 class Main extends Component {
    
@@ -14,8 +14,7 @@ class Main extends Component {
                 Developer, <br/>
                 Creator, <br/>
                 and <br/>
-                Father <br/>
-                ( Of a Cat )
+                Father ( Of a Cat )
               </h1>
             </div>
           </main>

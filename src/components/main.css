@@ -1,3 +1,16 @@
 #main-headline {
-  margin-left: 3vw;
+  width: 80vw;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  #main-headline {
+    margin-left: 10vw;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  #main-headline {
+    margin-left: 20vw;
+  }
 }
