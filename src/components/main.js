@@ -6,7 +6,7 @@ class Main extends Component {
     render() {
         return (
           <main>
-            <div id="main-headline">
+            <span id="main-headline">
               <h2 id="main-name">
                 Mustafa Jebara
               </h2>
@@ -16,7 +16,7 @@ class Main extends Component {
                 and <br/>
                 Father ( Of a Cat )
               </h1>
-            </div>
+            </span>
           </main>
         )
       }

@@ -1,6 +1,11 @@
+main {
+  height: 90vh;
+  display: flex;
+}
+
 #main-headline {
-  width: 80vw;
-  padding-bottom: 20vh;
+  width: 90vw;
+  margin: auto;
   margin-left: 5vw;
 }
 

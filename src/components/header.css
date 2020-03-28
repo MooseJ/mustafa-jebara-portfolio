@@ -1,22 +1,19 @@
 header {
-  height: 8vh;
+  height: 10vh;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  margin-bottom: 15vh;
 }
 
 @media screen and (min-width: 768px) {
   header {
-    height: 8vh;
     width: 90%;
   }
 }
 
 @media screen and (min-width: 1366px) {
   header {
-    height: 8vh;
     width: 80%;
   }
 }
