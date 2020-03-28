@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Main.css';
+import myson from '../assets/myson.png';
 
 class Main extends Component {
    
@@ -14,9 +15,11 @@ class Main extends Component {
                 Developer, <br/>
                 Creator, <br/>
                 and <br/>
-                Father ( Of a Cat )
+                Father <br/>
+                ( Of a Cat )
               </h1>
             </span>
+            <img className="myson" src={myson} alt="my son"/>
           </main>
         )
       }
