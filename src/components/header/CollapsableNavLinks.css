@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-.collapsible-links > li {
+.collapsible-links > li > a {
   text-align: center;
   flex: 1;
   display: list-item;

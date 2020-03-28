@@ -6,16 +6,16 @@ class CollapsableNavLinks extends Component {
     return (
       <ul className="collapsible-links">
         <li>
-          ABOUT ME
+          <a href="#about-me-section" onClick={this.props.onNavClick}>ABOUT ME</a>
         </li>
         <li>
-          PROJECTS
+          <a href="#about-me-section" onClick={this.props.onNavClick}>PROJECTS</a>
         </li>
         <li>
-          EXPERIENCE
+          <a href="#about-me-section" onClick={this.props.onNavClick}>EXPERIENCE</a>
         </li>
         <li>
-          CONTACT ME
+          <a href="#about-me-section" onClick={this.props.onNavClick}>CONTACT ME</a>
         </li>
       </ul>
     )

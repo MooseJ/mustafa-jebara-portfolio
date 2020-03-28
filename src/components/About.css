@@ -1,0 +1,57 @@
+#about-me-section {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#greeting {
+  font-size: 4rem;
+}
+
+#about-me-description {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #2E2424;
+  word-spacing: 1rem;
+  line-height: 3rem;
+}
+
+#about-me-text {
+  flex: 1;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-top: 20vh; 
+  padding-bottom: 20vh;
+}
+
+#about-me-img {
+  flex: 1;
+  width: 100vw;
+}
+
+@media screen and (min-width: 1200px) {
+  #about-me-img {
+    flex: 1;
+    width: 50vw;
+  }
+
+  #about-me-description {
+    font-size: 1rem;
+    font-weight: 300;
+    word-spacing: 0.5rem;
+    line-height: 2rem;
+  }
+
+  #about-me-text {
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 20vh; 
+    padding-bottom: 20vh;
+  }
+
+  #greeting {
+    font-size: 2rem;
+  }
+}
