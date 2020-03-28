@@ -1,6 +1,7 @@
 #main-headline {
   width: 80vw;
-  margin: auto;
+  padding-bottom: 20vh;
+  margin-left: 5vw;
 }
 
 @media screen and (min-width: 768px) {

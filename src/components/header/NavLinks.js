@@ -6,16 +6,16 @@ class NavLinks extends Component {
     return ( 
       <ul className="nav-links">
         <li>
-          ABOUT ME
+          <a href="#about-me-section">ABOUT ME</a>
         </li>
         <li>
-          PROJECTS
+          <a href="#about-me-section">PROJECTS</a>
         </li>
         <li>
-          EXPERIENCE
+          <a href="#about-me-section">EXPERIENCE</a>
         </li>
         <li>
-          CONTACT ME
+          <a href="#about-me-section">CONTACT ME</a>
         </li>
       </ul>
     )
