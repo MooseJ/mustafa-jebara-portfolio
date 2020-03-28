@@ -27,7 +27,10 @@
 }
 
 #about-me-img {
-  display: none;
+  max-width: 100%;
+  height: auto;
+  max-height: 100vh;
+  margin: auto;
 }
 
 @media screen and (min-width: 1200px) {
@@ -35,6 +38,7 @@
     flex: 1;
     width: 50vw;
     display: block;
+    height: auto;
   }
 
   #about-me-description {
