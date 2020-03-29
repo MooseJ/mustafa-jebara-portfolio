@@ -8,7 +8,7 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Mustafa Jebara</h1>
+        <h1>Mustafa  Jebara</h1>
         <p>
           Software Developer
         </p>
