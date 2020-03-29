@@ -20,5 +20,6 @@ deploy:
   repo: MooseJ/moosej.github.io.git
   target_branch: master
   verbose: true
+  keep-history: true
   on:
     branch: master
