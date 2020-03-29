@@ -116,7 +116,7 @@ const Projects = [
     at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
     urna nisi, fringila lorem et vehicula lacinia quam. Integer
     sollicitudin mauris nec lorem luctus ultrices.`,
-    link: "https://google.com",
+    link: "https://github.com/MooseJ",
     linkLabel: "View Source Code"
   },
   {
@@ -125,7 +125,7 @@ const Projects = [
     at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
     urna nisi, fringila lorem et vehicula lacinia quam. Integer
     sollicitudin mauris nec lorem luctus ultrices.`,
-    link: "https://google.com",
+    link: "https://github.com/MooseJ",
     linkLabel: "View Source Code"
   },
   {
@@ -134,7 +134,7 @@ const Projects = [
     at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
     urna nisi, fringila lorem et vehicula lacinia quam. Integer
     sollicitudin mauris nec lorem luctus ultrices.`,
-    link: "https://google.com",
+    link: "https://github.com/MooseJ",
     linkLabel: "View Source Code"
   },
   {
@@ -143,38 +143,62 @@ const Projects = [
     at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
     urna nisi, fringila lorem et vehicula lacinia quam. Integer
     sollicitudin mauris nec lorem luctus ultrices.`,
-    link: "https://google.com",
+    link: "https://github.com/MooseJ",
     linkLabel: "View Source Code"
   }
 ]
 
 const Expereinces = [
   {
-    company: "Quicken Loans",
+    company: "Very Dope Company",
     title: "Software Engineer",
     startDate: "May 2018",
-    endDate: "March 2020",
-    description: "We are the They",
+    endDate: "May 2020",
+    description: `Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
+    eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
+    erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+    lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
+    Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
+    Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
+    amet.`,
   },
   {
-    company: "Quicken Loans",
+    company: "Very Dope Company",
     title: "Software Engineer",
     startDate: "May 2018",
-    endDate: "March 2020",
-    description: "We are the They",
+    endDate: "May 2020",
+    description: `Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
+    eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
+    erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+    lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
+    Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
+    Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
+    amet.`,
   },
   {
-    company: "Quicken Loans",
+    company: "Very Dope Company",
     title: "Software Engineer",
     startDate: "May 2018",
-    endDate: "March 2020",
-    description: "We are the They",
+    endDate: "May 2020",
+    description: `Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
+    eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
+    erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+    lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
+    Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
+    Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
+    amet.`,
   },
   {
-    company: "Quicken Loans",
+    company: "Very Dope Company",
     title: "Software Engineer",
     startDate: "May 2018",
-    endDate: "March 2020",
-    description: "We are the They",
+    endDate: "May 2020",
+    description: `Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
+    eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
+    erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+    lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
+    Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
+    Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
+    amet.`,
   },
 ]
