@@ -19,5 +19,6 @@ deploy:
   local_dir: public/
   repo: MooseJ/moosej.github.io.git
   target_branch: master
+  verbose: true
   on:
     branch: master
