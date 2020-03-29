@@ -9,6 +9,8 @@ script: echo "npm test temporarily disabled"
 script: npm install && npm run build
 
 deploy:
+  edge:
+    branch: v1.8.47
   provider: pages
   skip_cleanup: true
   github_token: $GH_TOKEN # Set in the settings page of your repository, as a secure variable
