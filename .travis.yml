@@ -3,10 +3,18 @@ before_script:
   - npm install -g gatsby-cli
 node_js:
   - "10"
+
 script: echo "npm test temporarily disabled"
+
+script: npm install && npm run build
+
 deploy:
-  provider: script
-  script: npm install && npm run deploy -r https://$GH_TOKEN@github.com/MooseJ/moosej.github.io.git
+  provider: pages
   skip_cleanup: true
+  github_token: $GH_TOKEN # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  local_dir: public/
+  repo: MooseJ/moosej.github.io.git
+  target_branch: master
   on:
     branch: master
