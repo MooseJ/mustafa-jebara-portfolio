@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import GoToArticle from './GoToArticle'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -16,33 +17,11 @@ const Header = props => (
     </div>
     <nav>
       <ul>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('projects')
-            }}
-          >
-            Projects
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('experience')
-            }}
-          >
-            Experience
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            About
-          </button>
-        </li>
+        {
+          articles.map(article => (
+            <GoToArticle onOpenArticle={props.onOpenArticle} articleName={article}/>
+          ))
+        }
       </ul>
     </nav>
   </header>
@@ -54,3 +33,5 @@ Header.propTypes = {
 }
 
 export default Header
+
+const articles = ['projects', 'experience', 'about']
